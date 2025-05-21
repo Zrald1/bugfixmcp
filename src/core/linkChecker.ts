@@ -31,7 +31,7 @@ export class LinkChecker {
       verbose: options.verbose || false
     };
     this.checkedUrls = new Map();
-    this.baseUrl = 'http://localhost:3000';
+    this.baseUrl = 'http://localhost:3003';
   }
 
   /**

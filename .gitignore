@@ -9,6 +9,10 @@ dist/
 build/
 *.tsbuildinfo
 
+# Next.js
+.next/
+out/
+
 # Test coverage
 coverage/
 

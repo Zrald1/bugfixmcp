@@ -14,7 +14,11 @@ if (command === 'find bug') {
     process.argv[0],
     process.argv[1],
     'find',
-    'bug'
+    'bug',
+    '-d',
+    './test-nextjs-project',
+    '--verbose',
+    '--include-external'
   ];
   require('./bin/cli');
 } else {
