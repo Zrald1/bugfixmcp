@@ -1,0 +1,32 @@
+# Source files
+src/
+tests/
+
+# Configuration files
+tsconfig.json
+jest.config.js
+.eslintrc.js
+.prettierrc
+
+# Git files
+.git/
+.gitignore
+
+# CI/CD files
+.github/
+.travis.yml
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Test coverage
+coverage/
+
+# Logs
+*.log
+
+# Environment variables
+.env*
