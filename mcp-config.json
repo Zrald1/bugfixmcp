@@ -4,10 +4,9 @@
       "command": "npx",
       "args": [
         "-y",
-        "bug-finder-nextjs-mcp-server",
+        "bug-finder-nextjs-mcp-server@1.0.1",
         "bug-finder",
-        "find",
-        "bug"
+        "find-bug"
       ]
     }
   }
