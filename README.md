@@ -90,10 +90,8 @@ You can configure this tool as an MCP (Machine Comprehension Protocol) server fo
       "command": "npx",
       "args": [
         "-y",
-        "bug-finder-nextjs-mcp-server",
-        "bug-finder",
-        "find",
-        "bug"
+        "bug-finder-nextjs-mcp-server@1.0.3",
+        "mcp-server"
       ]
     }
   }
