@@ -18,7 +18,7 @@ This guide will walk you through the process of publishing your bug-finder-nextj
    - bin: { "bug-finder": "./bin/cli.js" }
    - author: Your name and contact information
    - license: "MIT"
-   - repository: Link to your GitHub repository
+   - repository: https://github.com/Zrald1/bugfixmcp.git
 
 2. Ensure your .npmignore file is set up to exclude unnecessary files:
    - Source files (they'll be compiled to dist/)

@@ -13,8 +13,8 @@ This guide will walk you through the process of creating a GitHub repository for
 1. Go to GitHub.com and sign in to your account
 2. Click on the "+" icon in the top-right corner and select "New repository"
 3. Fill in the repository details:
-   - Owner: Your GitHub username (gerald)
-   - Repository name: bug-finder-nextjs-mcp-server
+   - Owner: Your GitHub username (Zrald1)
+   - Repository name: bugfixmcp
    - Description: An MCP server that checks for 404 links in Next.js applications
    - Visibility: Public
    - Initialize this repository with: Do NOT check any of these options
@@ -29,7 +29,7 @@ After creating the repository on GitHub, you'll see instructions for pushing an 
 cd /path/to/bug-finder-nextjs-mcp-server
 
 # Add the GitHub repository as a remote
-git remote add origin https://github.com/gerald/bug-finder-nextjs-mcp-server.git
+git remote add origin https://github.com/Zrald1/bugfixmcp.git
 
 # Rename your current branch to main (if it's not already called main)
 git branch -M main
@@ -40,7 +40,7 @@ git push -u origin main
 
 ## Step 3: Verify Your Repository
 
-1. Go to https://github.com/gerald/bug-finder-nextjs-mcp-server
+1. Go to https://github.com/Zrald1/bugfixmcp
 2. You should see your code and files in the repository
 3. Check that the README.md is displayed on the main page
 4. Verify that all the important files are present:

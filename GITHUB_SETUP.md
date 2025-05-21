@@ -11,10 +11,10 @@ Follow these steps to push your local repository to GitHub:
 
 2. Connect your local repository to GitHub:
    ```bash
-   git remote add origin https://github.com/gerald/bug-finder-nextjs-mcp-server.git
+   git remote add origin https://github.com/Zrald1/bugfixmcp.git
    git branch -M main
    git push -u origin main
    ```
 
 3. Verify that your code has been pushed to GitHub by visiting:
-   https://github.com/gerald/bug-finder-nextjs-mcp-server
+   https://github.com/Zrald1/bugfixmcp

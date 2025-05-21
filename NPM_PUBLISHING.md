@@ -47,7 +47,7 @@ Follow these steps to publish your package to npm:
 ## After Publishing
 
 1. Create a new release on GitHub:
-   - Go to https://github.com/gerald/bug-finder-nextjs-mcp-server/releases/new
+   - Go to https://github.com/Zrald1/bugfixmcp/releases/new
    - Tag version: v1.0.0 (match your npm version)
    - Release title: v1.0.0
    - Description: Include what's new in this release
