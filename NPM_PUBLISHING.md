@@ -14,10 +14,10 @@ Follow these steps to publish your package to npm:
 
 ## Before Publishing
 
-1. Update the package.json file:
-   - Replace "Your Name" with your actual name
-   - Replace "your.email@example.com" with your email
-   - Replace "YOUR_USERNAME" with your GitHub username in all fields
+1. The package.json file has been updated with your information:
+   - Author: Gerald
+   - GitHub username: gerald
+   - Repository: https://github.com/gerald/bug-finder-nextjs-mcp-server
 
 2. Make sure all tests pass:
    ```bash
@@ -47,7 +47,7 @@ Follow these steps to publish your package to npm:
 ## After Publishing
 
 1. Create a new release on GitHub:
-   - Go to https://github.com/YOUR_USERNAME/bug-finder-nextjs-mcp-server/releases/new
+   - Go to https://github.com/gerald/bug-finder-nextjs-mcp-server/releases/new
    - Tag version: v1.0.0 (match your npm version)
    - Release title: v1.0.0
    - Description: Include what's new in this release
