@@ -1,0 +1,40 @@
+{
+  "mcpServers": {
+    "BugFinderNextJS": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "bug-finder-nextjs-mcp-server",
+        "find",
+        "bug"
+      ],
+      "description": "An MCP server that checks for 404 links in Next.js applications",
+      "version": "1.0.0",
+      "repository": "https://github.com/Zrald1/bugfixmcp",
+      "author": "Gerald",
+      "triggers": [
+        "find bug",
+        "check links",
+        "detect broken links",
+        "find 404 errors"
+      ],
+      "options": {
+        "includeExternal": {
+          "description": "Include external links in the check",
+          "type": "boolean",
+          "default": false
+        },
+        "verbose": {
+          "description": "Show verbose output",
+          "type": "boolean",
+          "default": false
+        },
+        "timeout": {
+          "description": "Timeout for each request in milliseconds",
+          "type": "number",
+          "default": 5000
+        }
+      }
+    }
+  }
+}

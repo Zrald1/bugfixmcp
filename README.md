@@ -79,6 +79,28 @@ find bug
 
 The tool will automatically detect the Next.js project and check for broken links.
 
+### Setting Up as an MCP Server
+
+You can configure this tool as an MCP (Machine Comprehension Protocol) server for AI agents by adding the following configuration to your MCP config file:
+
+```json
+{
+  "mcpServers": {
+    "BugFinderNextJS": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "bug-finder-nextjs-mcp-server",
+        "find",
+        "bug"
+      ]
+    }
+  }
+}
+```
+
+Save this as `mcp-config.json` in your project directory. AI agents that support MCP will be able to use this tool to find broken links in your Next.js project.
+
 ## How It Works
 
 1. The tool first verifies that the target directory contains a Next.js project
