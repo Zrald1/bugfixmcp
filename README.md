@@ -90,7 +90,7 @@ You can configure this tool as an MCP (Machine Comprehension Protocol) server fo
       "command": "npx",
       "args": [
         "-y",
-        "bug-finder-nextjs-mcp-server",
+        "github:Zrald1/bugfixmcp",
         "find",
         "bug"
       ]
@@ -99,7 +99,7 @@ You can configure this tool as an MCP (Machine Comprehension Protocol) server fo
 }
 ```
 
-Save this as `mcp-config.json` in your project directory. AI agents that support MCP will be able to use this tool to find broken links in your Next.js project.
+Save this as `mcp-config.json` in your project directory. This configuration uses the GitHub repository directly, so you don't need to wait for the package to be published to npm. AI agents that support MCP will be able to use this tool to find broken links in your Next.js project.
 
 ## How It Works
 
