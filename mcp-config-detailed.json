@@ -4,9 +4,10 @@
       "command": "npx",
       "args": [
         "-y",
-        "bug-finder-nextjs-mcp-server@1.0.0",
+        "bug-finder-nextjs-mcp-server",
         "bug-finder",
-        "find-bug"
+        "find",
+        "bug"
       ],
       "description": "An MCP server that checks for 404 links in Next.js applications",
       "version": "1.0.0",
