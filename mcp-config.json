@@ -1,12 +1,9 @@
 {
   "mcpServers": {
     "BugFinderNextJS": {
-      "command": "npx",
+      "command": "node",
       "args": [
-        "-y",
-        "bug-finder-nextjs-mcp-server@1.0.2",
-        "bug-finder",
-        "find-bug"
+        "bug-finder-mcp.js"
       ]
     }
   }
